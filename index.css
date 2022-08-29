@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+/* Nav Bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 108, 121);
+    padding-top: 1%;
+}
+
+nav div img{
+    width: 100px;
+    height: 50px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.list li{
+    padding: 10px 20px;
+    color: #fff;
+}
+
+nav .list div button{
+    padding: 5px 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1em;
+}
+
+nav .list div button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0px 5px 30px #000;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+ /* Main Section */
+ main{
+    height: 100vh;
+    background-color: rgb(99, 108, 121);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff
+}
+
+/* Styleing Left Portion of main Section */
+
+ main .left{
+    width: 300px;
+    height: 400px;
+    background: url('images/pexels-fauxels-3183197.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styleing Right Portion of Main Section */
+main .right{
+    width: 570px;
+}
+
+main .right h1{
+    font-size: 60px;
+    font-family: 'Raleway' !important;
+}
+
+.right article{
+    font-size: 20px;
+    font-weight: 300;
+    width: 510px;
+    margin: 5% 0 3% 0;
+}
+
+.right .input{
+    position: relative;
+    
+}
+
+.right .input input{
+    width: 440px;
+    padding: 3% 0 3% 8%;
+    font-size: 1em;
+}
+
+.right .input svg{
+    position: absolute;
+    top: 32%;
+    left: 2%;
+}
+
+.right .input button{
+    position: absolute;
+    top: 18%;
+    right: 16%;
+    padding: 10px 40px;
+}
+
+/* Connect With Us Section */
+
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connect .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headline{
+    width: 400px;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.headline h2{
+    font-family: 'Raleway' !important ;
+}
+
+.Achivement h3{
+    font-size: 25px;
+}
+
+.Achivement p{
+    color: #808080;
+    font-size: 15px;
+}
+
+.Achivements{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 100vw;
+}
+
+.Achivement{
+    margin: 3%;
+}
+
+.content + div{
+    background-image: url('images/pexels-fauxels-3184325.jpg');
+    background-size: cover;
+    width: 1000px;
+    height: 500px;   
+}
+
+/* Features */
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110vh;
+}
+
+.features .headline h2{
+    margin-bottom: 75%;
+    width: 400px;
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.green-btn{
+    background-color: rgb(91, 130, 112);
+    padding: 10px 40px;
+    border: none;
+    color: #fff;
+}
+
+.features .content .left{
+    width: 600px;
+    margin: 0 8%;
+}
+
+.features .content .left h2{
+    font-size: 40px;
+    padding-bottom: 30%;
+}
+
+.features .content .left p{
+    color: #808080;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 5% 0 3% 0;
+}
+
+.unique{
+    margin: 0 0% !important;
+}
+.features .content .right{
+    background: url('images/pexels-fauxels-3184405.jpg');
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    background-position: right;
+}
+
+.features .content .right1{
+    background: url('images/pexels-fauxels-3184603.jpg');
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    margin: 0 8%;
+}
+
+.features .content .right2{
+    background: url('images/pexels-linkedin-sales-navigator-2182969.jpg');
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+/* Teams */
+
+.teams{
+    height: 150vh;
+}
+
+.teams aside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside .heading{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+}
+
+.description{
+    width: 500px;
+    font-size: 20px;
+    color: #808080;
+    line-height: 1.3;
+}
+
+.bg{
+    background:  url('images/pexels-mikhail-nilov-8937870.jpg');
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.bg1{
+    background:  url('images/pexels-precious-judah-9154594.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.bg2{
+    background:  url('images/pexels-christina-morillo-1181424.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.cards{
+    display:flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.card div p{
+    font-size: 20px;
+    width: 300px;
+    color: #808080 ;
+}
+
+.card div h3{
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.cards + div {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 8% 0;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 5%;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#bottom ul li{
+    list-style-type: none;
+    padding: 10px 0;
+    color: #808080;
+    font-size: 15px;
+}
+
+#top .logo img{
+    width: 100px;
+}
+
+#top .social img{
+    padding: 8px;
+}
